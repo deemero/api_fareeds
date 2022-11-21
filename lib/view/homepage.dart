@@ -29,7 +29,6 @@ class _HomepageState extends State<Homepage> {
       setState(() {
         isLoading = false;
         listGetDriver = data ?? [];
-        log ?? ('data driver $listGetDriver');
       });
     } catch (e) {
       setState(() {
