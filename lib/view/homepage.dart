@@ -58,9 +58,7 @@ class _HomepageState extends State<Homepage> {
                 color: Colors.white70,
                 elevation: 5,
                 child: ListTile(
-                  onTap: () {
-                    // Navigator.push(context, route)
-                  },
+                  title: Text(data.name),
                 ),
               );
             }),
